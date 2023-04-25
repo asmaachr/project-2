@@ -15,7 +15,7 @@ My goals in this project are:
 ## Process
 ### Getting the Json files
 At first, I pulled all the information of Montreal city with more than 700 stations however during the process I encountered some challenges with the limit of daily requests with yelp. I changed then the city to Hamilton with 143 stations.
-
+![Map](images\Map.png)
 ### Parsing 
 For every API I pulled a sample to uderstand the Json file structure and I also used Postman to visualize better the Json file
 For FSQ and Yelp I define a 2 functions:
@@ -27,11 +27,13 @@ For FSQ and Yelp I define a 2 functions:
     I decided to run them seperately
     - Keeping the project scope in mind: 
         - from FSQ I collected :
-        ****
+        ![FSQ](images\FSQ.png)
         - from Yelp I collected:
-        ****
-        - From the city bikes
-        ***
+        ![Yelp](images/Yelp.png)
+    
+    From the city bikes    
+        - ![Bikes](images/City%20bikes.png)
+        
     - During the parsing process, I made sure that every record was related to the station row index as key to connect the final tables together
 
   
