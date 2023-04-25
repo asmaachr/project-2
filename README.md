@@ -71,7 +71,8 @@ For FSQ and Yelp I define a 2 functions:
 ### API comparison FSQ/YELP
     
     - Yelp provided overall more total number locations 2818 than Foursquare-FSQ 2660 for the city of Hamilton
-    - Also Yelp 2739 restaurants 79 parks while FSQ 1374 restaurants and 1286 - Assuming that the categorization is correct in both Application it       is better to use Yelp for restaurants and FSQ for Parks
+    - Also Yelp 2739 restaurants 79 parks while FSQ 1374 restaurants and 1286 - Assuming that the categorization is correct in both Application it 
+    is better to use Yelp for restaurants and FSQ for Parks
     - For stations Yelp 141 stations and FSQ 143: 2 stations are not covered by Yelp
     - Yelp provide more details such as rationg, reviews count , comments, price level.... that I couldn't find in FSQ for Hamilton.
     - Personally I found Json file from Yelp better structured than from FSQ (objet inside the other)
