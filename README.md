@@ -3,8 +3,8 @@
 ## Project/Goals
 My goals in this project are:
 - based on the prelimary information I defined the scope of the problem I am trying to analyse:
-    - % of bikes available by station vs number of restaurants/parks in a radiius of 1000m
-      and vs restaurant/park rstings
+    - % of bikes available by station vs number of restaurants/parks in a radius of 1000m
+      and vs restaurant/park ratings
 - Pull json files from different APIs
 - set up a an API Key environment
 - Use an EDA process to uderstand, clean and format the data
@@ -15,7 +15,11 @@ My goals in this project are:
 ## Process
 ### Getting the Json files
 At first, I pulled all the information of Montreal city with more than 700 stations however during the process I encountered some challenges with the limit of daily requests with yelp. I changed then the city to Hamilton with 143 stations.
-![Map](images\Map.png)
+
+![Alt text](images/Map.png)
+
+
+
 ### Parsing 
 For every API I pulled a sample to uderstand the Json file structure and I also used Postman to visualize better the Json file
 For FSQ and Yelp I define a 2 functions:
@@ -25,14 +29,17 @@ For FSQ and Yelp I define a 2 functions:
 - Note: 
     - when reading FSQ json I noticed that there was not a clear identificator to distinguish between POI type ( parks, restaurants) so
     I decided to run them seperately
+
     - Keeping the project scope in mind: 
         - from FSQ I collected :
-        ![FSQ](images\FSQ.png)
+        ![FSQ](images/FSQ.png) 
+        
+        
         - from Yelp I collected:
         ![Yelp](images/Yelp.png)
     
-    From the city bikes    
-        - ![Bikes](images/City%20bikes.png)
+        -From the city bikes    
+        ![Bikes](images/City%20bikes.png)
         
     - During the parsing process, I made sure that every record was related to the station row index as key to connect the final tables together
 
